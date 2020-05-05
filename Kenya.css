@@ -1,1 +1,13 @@
-hey reymond
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#top{
+    width: 100ww;
+    height: 4em;
+    background-color: aliceblue;
+    border-bottom: solid 10px orange;
+}
