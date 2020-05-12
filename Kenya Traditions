@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KENYA WORLD VIEW</title>
+    <link rel="stylesheet" href="Kenya.css">
+    <meta charset="utf-8">
+</head>
+<body>
+    <div id="top"> 
+        <h1 id="tit">Kenya World View</h1>
+        <a href="https://www.google.com/" id="in1">placeholder</a>
+        <a href="https://www.google.com/" id="in2">placeholder</a>
+        <a href="https://www.google.com/" id="in3">placeholder</a>
+        <a href="https://www.google.com/" id="in4">about</a>
+    </div>
+        
+
+
+</body>
+</html>
