@@ -63,3 +63,7 @@ a:hover{
     color: red;
     text-decoration: none;
 }
+a:checked{
+    text-decoration: none;
+    color: blue;
+}
