@@ -68,4 +68,8 @@ a:checked{
     text-decoration: none;
     color: blue;
 }
+a:visited{
+    text-decoration: none;
+    color: blue;
+}
 ::-webkit-scrollbar {max-width: 0%; width: 0%;}
