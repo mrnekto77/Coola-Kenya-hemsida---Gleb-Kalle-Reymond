@@ -51,6 +51,7 @@
 .in{
     color: saddlebrown;
     margin-left: 10%;
+    
 }
    
 
@@ -67,3 +68,77 @@ a:checked{
     text-decoration: none;
     color: blue;
 }
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#top{
+    width: 100vw;
+    height: 5em;
+    background-color: royalblue;
+    border-bottom: solid 10px orange;
+}
+#tit{
+    padding-top: 10px;
+    padding-left: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+}
+#est1{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    margin-left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#est2{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    margin-left: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#est3{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    margin-left: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#est4{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    margin-left: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.in{
+    color: saddlebrown;
+    margin-left: 10%;
+}
+   
+
+a:link{
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+a:checked{
+    text-decoration: none;
+    color: blue;
+}
+a:visited {
+  text-decoration: none;
+    color: blue;
+}
+
