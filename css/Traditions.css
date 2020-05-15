@@ -1,0 +1,24 @@
+#TB{
+    margin-top: 5em;
+    margin-left: 20em;
+    margin-right: 20em;
+    background-color: whitesmoke;
+    height: 100em;
+    width: 100ww;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: orange;
+    background-image: url(/img/Screenshot_20200120-135655.png);
+    background-size: cover;
+}
+
+#text{
+
+}
+
+body{
+    background-image: url(/img/backtra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

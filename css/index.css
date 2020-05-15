@@ -1,0 +1,30 @@
+#mp{
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: orange;
+}
+#text1{
+    border-radius: 2px;
+    border-style: solid;
+    border-color: orange;
+    width: 60vw;
+    height: 53vh;
+    background-color: royalblue;
+    margin-left: 550px;
+    margin-top: -400px;
+}
+#fl{
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+body{
+    background-image: url(/img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+::-webkit-scrollbar {max-width: 0%; width: 0%;}

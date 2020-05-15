@@ -1,0 +1,71 @@
+
+
+body{
+    background-image: url(/img/africanchildren.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#text1{
+    border-radius: 2px;
+    border-style: solid;
+    border-color: orange;
+    width: 60vw;
+    height: 53vh;
+    background-color: royalblue;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+
+#text2{
+    border-radius: 2px;
+    border-style: solid;
+    border-color: orange;
+    width: 50vw;
+    height: 53vh;
+    background-color: royalblue;
+    margin-top: 50px;
+    margin-left: 70px
+}
+
+#text3{
+    border-radius: 2px;
+    border-style: solid;
+    border-color: orange;
+    width: 50vw;
+    height: 53vh;
+    background-color: royalblue;
+    margin-top: 50px;
+    margin-left: 70px
+}
+
+#im1{
+    position: absolute;
+    margin-top: -1310px;
+    margin-left: 100px;
+    height: 400px;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: orange;
+}
+
+#im2{
+    position: absolute;
+    margin-top: -860px;
+    margin-left: 900px;
+    height: 400px;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: orange;
+}
+
+#im3{
+    position: absolute;
+    margin-top: -405px;
+    margin-left: 900px;
+    height: 400px;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: orange;
+}

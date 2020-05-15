@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#top{
+    width: 100vw;
+    height: 5em;
+    background-color: royalblue;
+    border-bottom: solid 10px orange;
+}
+
+#tit{
+    padding-top: 10px;
+    padding-left: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+}
+
+#est1, #est2, #est3, #est4{
+    border-radius: 9px;
+}
+
+#est1:hover, #est2:hover, #est3:hover, #est4:hover{
+    background-color: darkorange;
+}
+
+a > #CP{
+    position: absolute;
+    left: 22px;
+    top: 12px
+}
+
+a > #SP{
+    position: absolute;
+    left: 29px;
+    top: 12px;
+}
+
+a > #TP{
+    position: absolute;
+    left: 19px;
+    top: 12px;
+}
+
+a > #AP{
+    position: absolute;
+    left: 29px;
+    top: 12px;
+}
+
+#est1{
+    position: absolute;
+    left: 20%;
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#est2{
+    position: absolute;
+    left: 40%;
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#est3{
+    position: absolute;
+    left: 60%;
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#est4{
+    position: absolute;
+    left: 80%;
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.in{
+    color: saddlebrown;
+    margin-left: 10%;
+    
+}
+   
+
+a:link{
+    text-decoration: none;
+    color: blue;
+}
+
+.in:hover{
+    color: red;
+    text-decoration: none;
+}
+.in:checked{
+    text-decoration: none;
+    color: blue;
+}    
+a:visited{
+    text-decoration: none;
+    color: blue;
+}
+
+::-webkit-scrollbar {max-width: 0%; width: 0%;}

@@ -1,0 +1,39 @@
+body{
+    background-image: url(/img/backsl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#tx1{
+    border-radius: 2px;
+    border-style: solid;
+    border-color: orange;
+    width: 20vw;
+    height: 80vh;
+    background-color: royalblue;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+#tx2{
+    border-radius: 2px;
+    border-style: solid;
+    border-color: orange;
+    width: 38vw;
+    height: 30vh;
+    background-color: royalblue;
+    margin-left: 500px;
+    margin-top: -610px;
+}
+
+#tx3{
+    border-radius: 2px;
+    border-style: solid;
+    border-color: orange;
+    width: 20vw;
+    height: 80vh;
+    background-color: royalblue;
+    margin-left: 1160px;
+    margin-top: -230px;
+}
