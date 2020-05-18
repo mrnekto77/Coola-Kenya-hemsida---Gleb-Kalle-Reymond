@@ -3,17 +3,18 @@
     margin-left: 20em;
     margin-right: 20em;
     background-color: whitesmoke;
-    height: 100em;
+    height: 10em;
     width: 100ww;
     border-radius: 2px;
     border-style: solid;
     border-color: orange;
-    background-image: url(../img/Screenshot_20200120-135655.png);
+    background-image: url();
     background-size: cover;
 }
 
 #text{
-
+    font-size: 10em;
+    padding-left: 0.5em;
 }
 
 body{
@@ -22,3 +23,4 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+

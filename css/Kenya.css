@@ -23,6 +23,9 @@
 
 #est1:hover, #est2:hover, #est3:hover, #est4:hover{
     background-color: darkorange;
+    border-top: solid 1px black;
+    border-left: solid 1px black;
+    border-right: solid 1px black;
 }
 
 a > #CP{
@@ -83,7 +86,7 @@ a > #AP{
 }
 .in{
     color: saddlebrown;
-    margin-left: 10%;
+    margin-left: 0%;
     
 }
    
