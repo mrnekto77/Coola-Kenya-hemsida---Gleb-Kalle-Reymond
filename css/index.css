@@ -25,6 +25,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
+    overflow: scroll;
+    height: 2000px;
 }
+
 ::-webkit-scrollbar {max-width: 0%; width: 0%;}

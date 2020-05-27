@@ -7,19 +7,122 @@
     <meta charset="utf-8">
 </head>
 <body>
-    <!-- Gleb Nikolajev, Kalle Raoutio, Raymond Ånström -->
+    <!-- Gleb Nikolajev, Kalle Rautio, Raymond Ånström -->
     <div id="top"> 
         <a href=index.html><h1 id="tit">Kenya World View</h1></a>
         <a id="est1" href="Culture.html" class="in"><p id="CP">Culture</p></a>
         <a id="est2" href="Slang.html" class="in"><p id="SP">Slang</p></a>
         <a id="est3" href="Traditions.html" class="in"><p id="TP">Tradition</p></a>
         <a id="est4" href="about.html" class="in"><p id="AP">About</p></a>
+    </div>
+    
+    <div id="nytop">
+        <div class="Extra">
+        <a href=index.html><h1 id="tit">Kenya World View</h1></a>
+        <a id="nyest1" href="Culture.html" ><p id="CP">Culture</p></a>
+        <a id="nyest2" href="Slang.html" ><p id="SP">Slang</p></a>
+        <a id="nyest3" href="Traditions.html" ><p id="TP">Tradition</p></a>
+        <a id="nyest4" href="about.html" ><p id="AP">About</p></a>
+        </div>
+    </div>
     
     <div id="TB">
         <p id="text">Kenya Traditions</p>
         
+        <!-- East African Arts Festival -->
+        
+        <a class="hide">
+            <div id="EAAF"><p>East African Arts Festival</p><img src="img/Traditions.jpg" alt="East African Arts Festival img"></div>
+            <span id="spanEAAF" class="Text-Display">
+                East African Arts Festival <br><br>
+                <span>
+                    In March each year, Nairobi hosts the East African Art Festival, the biggest of its kind in the region, which attracts competitors and spectators from around the world. The three-day event showcases art, music, theater, music, fashion, literature, architecture, sculpture and traditional crafts. It is hosted by the Kenyan National Museum.
+                </span>
+            </span>
+        </a>
+        
+        <!-- Easter -->
+        
+        <a class="hide">
+            <div id="Easter"><p>Kenyan Easter</p><img src="img/Easter.jpg" alt="Easter img"></div>
+            <span id="spanEas" class="Text-Display">
+                Easter in Kenya <br><br>
+                <span>
+                    In Kenya, Good Friday and Easter Monday are public holidays, marking the long weekend commemorating Jesus Christ’s crucifixion and resurrection. Good Friday often sees processions through the streets with dramatic recreations of the Stations of the Cross, culminating in church services. Saturday often involves a bonfire outside the church and the lighting of candles and prayers inside, with Sunday being a feast marked by singing, bell-ringing, church services, and family togetherness.
+                </span>
+            </span>
+        </a>
+        
+        <!-- Eid al-Fitr -->
+        
+        <a class="hide">
+            <div id="EaF"><p>Eid al-Fitr</p><img src="img/EaF.jpg" alt="Eid al-Fitr img"></div>
+            <span id="spanEaF" class="Text-Display">
+                Eid al-Fitr <br><br>
+                <span>
+                   Eid Al Fitr is an Islamic celebration that usually takes place in September, when the sighting of the moon marks the end of the Muslim holy month of fasting during Ramadan. Eid celebrations usually involve personal cleansing, communal prayers, charity donations, and three full days of feasting and spending time with friends and family. The celebrations are biggest along the coastal areas where most of the Muslim population of Kenya lives.
+                </span>
+            </span>
+        </a>
+        
+        <!-- International Camel Derby and Festival -->
+        
+        <a class="hide">
+            <div id="ICDAF"><p>Eid al-Fitr</p><img src="img/ICDAF.jpg" alt="International Camel Derby and festival img"></div>
+            <span id="spanICDAF" class="Text-Display">
+                International Camel Derby and Festival <br><br>
+                <span>
+                  The annual International Camel Derby and Festival has been held on the outskirts of Maralal town in northern Kenya since 1990. The main feature is the camel racing which takes place over several days through semi-desert regions and is open to amateurs and novices. Visitors come from all over the world to take part or watch, and there are also cycle races, donkey rides, children’s entertainment, and the opportunity to rent a camel for the day. The derby usually takes place in August.
+                </span>
+            </span>
+        </a>
+        
+        <!-- Mombasa Carnival -->
+        
+        <a class="hide">
+            <div id="MC"><p>Mombasa Carnival</p><img src="img/MC.jpg" alt="Mombasa Carnival img"></div>
+            <span id="spanMC" class="Text-Display">
+                Mombasa Carnival <br><br>
+                <span>
+                  November is when the city of Mombasa celebrates Kenyan culture with a carnival by the Indian Ocean. Artists, dancers, musicians and tribal people flock to take part in the concerts that make up one of Kenya’s largest annual events. One of the major features is the main street parade with floats that showcase the different tribal identities across the nation. There are street stalls and opportunities for eating, drinking and dancing.
+                </span>
+            </span>
+        </a>
+        
+        
+        
+        <div id="MC"></div>
+        <div id="JD"></div>
+        <div id="Christ"></div>
+        <div id="NY"></div>
         
     </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script>
+        
+    var EAAF = document.querySelectorAll('a.hide span');
 
-</body>
+    window.onmousemove = function (z) {
+        var x = (z.clientX + 20) + 'px',
+            y = (z.clientY + 20) + 'px';
+        for (var i = 0; i < EAAF.length; i++) {
+            EAAF[i].style.top = y;
+            EAAF[i].style.left = x;
+        }
+    };  
+        
+    $(window).on("scroll", function (){
+        if ($(this).scrollTop() > 90){
+            $("#nytop").css("display", "block");
+        }
+        else {
+            $("#nytop").css("display", "none");
+        }
+    });
+    
+    </script>
+    
+    </body>
 </html>

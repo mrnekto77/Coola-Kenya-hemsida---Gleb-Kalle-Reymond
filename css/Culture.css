@@ -11,10 +11,10 @@ body{
     border-radius: 2px;
     border-style: solid;
     border-color: orange;
-    width: 60vw;
-    height: 53vh;
+    width: 40vw;
+    height: 55vh;
     background-color: royalblue;
-    margin-left: 550px;
+    margin-left: 1000px;
     margin-top: 50px;
 }
 
@@ -33,7 +33,7 @@ body{
     border-radius: 2px;
     border-style: solid;
     border-color: orange;
-    width: 50vw;
+    width: 70vw;
     height: 53vh;
     background-color: royalblue;
     margin-top: 50px;
@@ -42,9 +42,9 @@ body{
 
 #im1{
     position: absolute;
-    margin-top: -1310px;
-    margin-left: 100px;
-    height: 400px;
+    margin-top: -1620px;
+    margin-left: 73px;
+    height: 500px;
     border-radius: 2px;
     border-style: solid;
     border-color: orange;
@@ -52,9 +52,10 @@ body{
 
 #im2{
     position: absolute;
-    margin-top: -860px;
-    margin-left: 900px;
-    height: 400px;
+    margin-top: -1052px;
+    margin-left: 1100px;
+    height: 495px;
+    width: 670px;
     border-radius: 2px;
     border-style: solid;
     border-color: orange;
@@ -62,10 +63,18 @@ body{
 
 #im3{
     position: absolute;
-    margin-top: -405px;
-    margin-left: 900px;
-    height: 400px;
+    margin-top: -500px;
+    margin-left: 1440px;
+    height: 490px;
     border-radius: 2px;
     border-style: solid;
     border-color: orange;
+}
+
+
+.intx1{
+    padding-left: 10px;
+}
+.intx2{
+    
 }

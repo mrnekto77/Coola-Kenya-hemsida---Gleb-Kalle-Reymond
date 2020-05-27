@@ -3,7 +3,7 @@
     margin-left: 20em;
     margin-right: 20em;
     background-color: whitesmoke;
-    height: 10em;
+    height: 100em;
     width: 100ww;
     border-radius: 2px;
     border-style: solid;
@@ -13,8 +13,10 @@
 }
 
 #text{
-    font-size: 10em;
-    padding-left: 0.5em;
+    font-size: 8em;
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: em;
 }
 
 body{
@@ -24,3 +26,220 @@ body{
     background-attachment: fixed;
 }
 
+/* 
+När man drar musen över en bild kommer det upp en färglad ruta där det står information om bilden samt eventet.
+*/
+
+/*
+Generella inställningar
+*/
+
+.Size{
+    background-attachment: fixed;
+    display: block;
+}
+
+a.hide{
+    position: relative;
+    z-index: 20;
+    color: #000;
+    text-decoration: none;
+}
+
+a.hide:hover{
+    z-index: 30;
+}
+
+/*
+East African arts festival settings
+*/
+
+a.hide #spanEAAF.Text-Display{
+    display: none;
+}
+
+a.hide:hover #spanEAAF.Text-Display{
+    display: block;
+    position: fixed;
+    overflow: hidden;
+    font-size: 18px;
+    line-height: 25px;
+    width: 20em;
+    padding: 10px;
+    border: 4px solid royalblue;
+    background-color: orange;
+    color: black;
+    text-align: left;
+    border-radius: 5px;
+}
+
+/* 
+Easter Kenya
+*/
+
+#spanEas.Text-Display{
+    font-size: 16px;
+    font-weight: normal;
+    color: #444;
+    line-height: 100px;
+}
+
+a.hide #spanEas.Text-Display{
+    display: none;
+}
+
+a.hide:hover #spanEas.Text-Display{
+    display: block;
+    position: fixed;
+    overflow: hidden;
+    font-size: 18px;
+    line-height: 25px;
+    width: 20em;
+    padding: 10px;
+    border: 4px solid royalblue;
+    background-color: orange;
+    color: black;
+    text-align: left;
+    border-radius: 5px;
+}
+
+/*
+Eid al-Fitr
+*/
+
+#spanEaF.Text-Display{
+    font-size: 16px;
+    font-weight: normal;
+    color: #444;
+    line-height: 100px;
+}
+
+a.hide #spanEaF.Text-Display{
+    display: none;
+}
+
+a.hide:hover #spanEaF.Text-Display{
+    display: block;
+    position: fixed;
+    overflow: hidden;
+    font-size: 18px;
+    line-height: 25px;
+    width: 20em;
+    padding: 10px;
+    border: 4px solid royalblue;
+    background-color: orange;
+    color: black;
+    text-align: left;
+    border-radius: 5px;
+}
+
+/*
+International Camel Derby and Festival
+*/
+
+#spanICDAF.Text-Display{
+    font-size: 16px;
+    font-weight: normal;
+    color: #444;
+    line-height: 100px;
+}
+
+a.hide #spanICDAF.Text-Display{
+    display: none;
+}
+
+a.hide:hover #spanICDAF.Text-Display{
+    display: block;
+    position: fixed;
+    overflow: hidden;
+    font-size: 18px;
+    line-height: 25px;
+    width: 20em;
+    padding: 10px;
+    border: 4px solid royalblue;
+    background-color: orange;
+    color: black;
+    text-align: left;
+    border-radius: 5px;
+}
+
+/*
+Mombasa Carnival
+*/
+
+
+#spanMC.Text-Display{
+    font-size: 16px;
+    font-weight: normal;
+    color: #444;
+    line-height: 100px;
+}
+
+a.hide #spanMC.Text-Display{
+    display: none;
+}
+
+a.hide:hover #spanMC.Text-Display{
+    display: block;
+    position: fixed;
+    overflow: hidden;
+    font-size: 18px;
+    line-height: 25px;
+    width: 20em;
+    padding: 10px;
+    border: 4px solid royalblue;
+    background-color: orange;
+    color: black;
+    text-align: left;
+    border-radius: 5px;
+}
+
+
+
+#EAAF{
+    position: absolute;
+    height: auto;
+    width: auto;
+    left: 2em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#Easter{
+    position: absolute;
+    height: auto;
+    width: auto;
+    left: 20em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#EaF{
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 20em;
+    left: 20em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#ICDAF{
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 30em;
+    left: 20em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#MC{
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 30em;
+    left: 10em;
+    font-size: 1.5em;
+    text-align: center;
+}

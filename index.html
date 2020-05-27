@@ -6,25 +6,53 @@
     <link rel="stylesheet" href="css/Kenya.css">
     <link rel="stylesheet" href="css/index.css">
     <meta charset="utf-8">
+    
 </head>
+    
 <body>
     <!-- Gleb Nikolajev, Kalle Raoutio, Raymond Ånström -->
+    
+    <!-- Ovre diven och lankar till andra delar av html --> 
+    
     <div id="top"> 
-    <!-- Ovre diven och lankar till andra delar av html -->
         <a href=index.html><h1 id="tit">Kenya World View</h1></a>
-        <a id="est1" href="Culture.html" class="in"><p id="CP">Culture</p></a>
-        <a id="est2" href="Slang.html" class="in"><p id="SP">Slang</p></a>
-        <a id="est3" href="Traditions.html" class="in"><p id="TP">Tradition</p></a>
-        <a id="est4" href="about.html" class="in"><p id="AP">About</p></a>
+        <a id="est1" href="Culture.html"><p id="CP">Culture</p></a>
+        <a id="est2" href="Slang.html"><p id="SP">Slang</p></a>
+        <a id="est3" href="Traditions.html"><p id="TP">Tradition</p></a>
+        <a id="est4" href="about.html"><p id="AP">About</p></a>
     </div>
     
+    <div id="nytop">
+        <div class="Extra">
+        <a href=index.html><h1 id="tit">Kenya World View</h1></a>
+        <a id="nyest1" href="Culture.html" ><p id="CP">Culture</p></a>
+        <a id="nyest2" href="Slang.html" ><p id="SP">Slang</p></a>
+        <a id="nyest3" href="Traditions.html" ><p id="TP">Tradition</p></a>
+        <a id="nyest4" href="about.html" ><p id="AP">About</p></a>
+        </div>
+    </div>
     
     <div>
         <img src="img/mp.jpg" alt="error" id="mp">
     </div>
+    
     <div id="text1">
         
     </div>
+    
     <img src="img/flag.png" alt="error" id="fl" width="50%" height="350">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+    <script>
+        $(window).on("scroll", function (){
+            if ($(this).scrollTop() > 90){
+                $("#nytop").css("display", "block");
+            }
+            else {
+                $("#nytop").css("display", "none");
+            }
+        });
+    </script>
+    
 </body>
