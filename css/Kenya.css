@@ -108,6 +108,7 @@ a > #AP{
     border-right: solid 10px orange;
     border-bottom-right-radius: 9px;
     transition: 1s;
+    z-index: 50;
 }
 
 .Extra:hover{

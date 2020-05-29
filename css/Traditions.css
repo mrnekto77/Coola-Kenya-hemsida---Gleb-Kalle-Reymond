@@ -2,21 +2,38 @@
     margin-top: 5em;
     margin-left: 20em;
     margin-right: 20em;
-    background-color: whitesmoke;
-    height: 100em;
+    background-color: rgb(255,165,0,0.9);
+    height: 80em;
     width: 100ww;
-    border-radius: 2px;
-    border-style: solid;
-    border-color: orange;
+    border-radius: 9px;
+    border: solid 6px;
+    border-color: royalblue;
     background-image: url();
     background-size: cover;
+}
+
+#Bottom{
+    border-top: solid 4px black;
+    margin-top: 20px;
+    width: 100ww;
+    background-color: gray;
+    height: 10em;
+    top: 100em;
+    display: block;
+}
+
+#TM{
+    position: relative;
+    top: 3.8em;
+    opacity: 40%;
 }
 
 #text{
     font-size: 8em;
     text-align: center;
-    padding-bottom: 1em;
-    padding-top: em;
+    padding-bottom: 0.5em;
+    padding-top: 0.2em;
+    opacity: 100%;
 }
 
 body{
@@ -167,7 +184,6 @@ a.hide:hover #spanICDAF.Text-Display{
 Mombasa Carnival
 */
 
-
 #spanMC.Text-Display{
     font-size: 16px;
     font-weight: normal;
@@ -194,13 +210,106 @@ a.hide:hover #spanMC.Text-Display{
     border-radius: 5px;
 }
 
+/*
+Jamhuri Day
+*/
 
+#spanJD.Text-Display{
+    font-size: 16px;
+    font-weight: normal;
+    color: #444;
+    line-height: 100px;
+}
+
+a.hide #spanJD.Text-Display{
+    display: none;
+}
+
+a.hide:hover #spanJD.Text-Display{
+    display: block;
+    position: fixed;
+    overflow: hidden;
+    font-size: 18px;
+    line-height: 25px;
+    width: 20em;
+    padding: 10px;
+    border: 4px solid royalblue;
+    background-color: orange;
+    color: black;
+    text-align: left;
+    border-radius: 5px;
+}
+
+/*
+Kenyan Christmas
+*/
+
+#spanChrist.Text-Display{
+    font-size: 16px;
+    font-weight: normal;
+    color: #444;
+    line-height: 100px;
+}
+
+a.hide #spanChrist.Text-Display{
+    display: none;
+}
+
+a.hide:hover #spanChrist.Text-Display{
+    display: block;
+    position: fixed;
+    overflow: hidden;
+    font-size: 18px;
+    line-height: 25px;
+    width: 20em;
+    padding: 10px;
+    border: 4px solid royalblue;
+    background-color: orange;
+    color: black;
+    text-align: left;
+    border-radius: 5px;
+}
+
+/*
+New Year
+*/
+
+#spanNY.Text-Display{
+    font-size: 16px;
+    font-weight: normal;
+    color: #444;
+    line-height: 100px;
+}
+
+a.hide #spanNY.Text-Display{
+    display: none;
+}
+
+a.hide:hover #spanNY.Text-Display{
+    display: block;
+    position: fixed;
+    overflow: hidden;
+    font-size: 18px;
+    line-height: 25px;
+    width: 20em;
+    padding: 10px;
+    border: 4px solid royalblue;
+    background-color: orange;
+    color: black;
+    text-align: left;
+    border-radius: 5px;
+}
+
+img{
+    border: solid 2px royalblue;
+    border-radius: 5px;
+}
 
 #EAAF{
     position: absolute;
     height: auto;
     width: auto;
-    left: 2em;
+    left: 4em;
     font-size: 1.5em;
     text-align: center;
 }
@@ -209,7 +318,7 @@ a.hide:hover #spanMC.Text-Display{
     position: absolute;
     height: auto;
     width: auto;
-    left: 20em;
+    left: 20.3em;
     font-size: 1.5em;
     text-align: center;
 }
@@ -218,17 +327,20 @@ a.hide:hover #spanMC.Text-Display{
     position: absolute;
     height: auto;
     width: auto;
-    top: 20em;
-    left: 20em;
+    left: 36em;
     font-size: 1.5em;
     text-align: center;
+}
+
+#imgEaF{
+    height: 194px;
 }
 
 #ICDAF{
     position: absolute;
     height: auto;
     width: auto;
-    top: 30em;
+    top: 13.8em;
     left: 20em;
     font-size: 1.5em;
     text-align: center;
@@ -238,8 +350,38 @@ a.hide:hover #spanMC.Text-Display{
     position: absolute;
     height: auto;
     width: auto;
+    top: 15em;
+    left: 4em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#JD{
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 14.8em;
+    left: 36em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#Christ{
+    position: absolute;
+    height: auto;
+    width: auto;
     top: 30em;
-    left: 10em;
+    left: 12em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#NY{
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 30em;
+    left: 28em;
     font-size: 1.5em;
     text-align: center;
 }
