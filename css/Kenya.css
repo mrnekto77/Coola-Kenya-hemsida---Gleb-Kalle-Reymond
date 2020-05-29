@@ -92,6 +92,15 @@ a > #AP{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#triangel{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-right: 70px solid transparent;
+    border-top: 30px solid royalblue;
+    margin-top: 80px;
+}
+
 /* Extra Header */
 
 #nytop{
@@ -108,7 +117,6 @@ a > #AP{
     border-right: solid 10px orange;
     border-bottom-right-radius: 9px;
     transition: 1s;
-    z-index: 50;
 }
 
 .Extra:hover{
