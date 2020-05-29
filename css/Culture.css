@@ -10,65 +10,80 @@ body{
 #text1{
     border-radius: 2px;
     border-style: solid;
-    border-color: orange;
+    border-color: royalblue;
     width: 40vw;
     height: 55vh;
-    background-color: royalblue;
-    margin-left: 1000px;
-    margin-top: 50px;
+    background-color: rgb(255, 165, 0, 0.9);;
+    z-index: -1;
+    color: royalblue;
+    padding: 10px;
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 2%;
 }
 
 #text2{
+    position: absolute;
     border-radius: 2px;
     border-style: solid;
-    border-color: orange;
+    border-color: royalblue;
     width: 50vw;
     height: 53vh;
-    background-color: royalblue;
-    margin-top: 50px;
-    margin-left: 70px
+    background-color: rgb(255, 165, 0, 0.9);;
+    margin-top: 33%;
+    margin-left: 2%;
+    z-index: -1;
+    color: royalblue;
+    padding: 10px;
 }
 
 #text3{
+    position: absolute;
     border-radius: 2px;
     border-style: solid;
-    border-color: orange;
+    border-color: royalblue;
     width: 70vw;
     height: 53vh;
-    background-color: royalblue;
-    margin-top: 50px;
-    margin-left: 70px
+    background-color: rgb(255, 165, 0, 0.9);;
+    margin-top: 63%;
+    margin-left: 2%;
+    z-index: -1;
+    color: royalblue;
+    padding: 10px;
 }
 
 #im1{
     position: absolute;
-    margin-top: -1620px;
-    margin-left: 73px;
     height: 500px;
     border-radius: 2px;
     border-style: solid;
-    border-color: orange;
+    border-color: royalblue;
+    z-index: -1;
+    margin-left: 3%;
+    margin-top: 3%;
 }
 
 #im2{
     position: absolute;
-    margin-top: -1052px;
-    margin-left: 1100px;
+    margin-top: 34%;
+    margin-left: 60%;
     height: 495px;
     width: 670px;
     border-radius: 2px;
     border-style: solid;
-    border-color: orange;
+    border-color: royalblue;
+    z-index: -1;
 }
 
 #im3{
     position: absolute;
-    margin-top: -500px;
-    margin-left: 1440px;
+    margin-top: 63%;
+    margin-left: 78%;
     height: 490px;
     border-radius: 2px;
     border-style: solid;
-    border-color: orange;
+    border-color: royalblue;
+    z-index: -1;
 }
 
 
