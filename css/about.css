@@ -1,0 +1,103 @@
+ 
+
+
+body{
+    background-image: url(../img/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+        
+#ab{
+    border-radius: 2px;
+    border-style: solid;
+    border-color: royalblue;
+    width: 80em;
+    height: 115em;
+    background-color: rgb(255,165,0,0.9);;
+    margin-left: 20em;
+    margin-right: 20em;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+#aText{
+    text-align: center;
+    margin-top: 0.6em;
+    font-size: 6em;
+}
+
+#Block{
+    width: auto;
+    height: auto;
+    margin-left:5%;
+    margin-right: 5%;
+}
+
+img{
+    border: solid royalblue 2px;
+    border-radius: 8px;
+}
+
+#P1{
+    position: relative;
+    width: 20em;
+    height: auto;
+    left: 2em;
+    top: 10em;
+}
+
+#P1 > h3{
+    position: relative;
+    left: -4em;
+    width: 19em;
+}
+
+#P2{
+    position: relative;
+    width: 20em;
+    height: auto;
+    left: 21em;
+    top: -9em;
+}
+
+#P2 > img{
+    height: 17em
+}
+
+#P2 > h3{
+    position: relative;
+    left: em;
+    width: 19em;
+}
+#P3{
+    position: relative;
+    width: 20em;
+    height: auto;
+    left: 48em;
+    top: -34em;
+}
+
+#P3 > img{
+    height: 22em
+}
+
+#P3 > h3{
+    position: relative;
+    left: 0em;
+    width: 19em;
+}
+
+#Sources > h1{
+    position: relative;
+    top: -9em;
+    left: 2em;
+    font-size: 3em;
+}
+
+ul{
+    position: relative;
+    left: 10em;
+    top: -25em;
+    list-style: none;
+    height: 10em;
+}
