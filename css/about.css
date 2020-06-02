@@ -14,10 +14,11 @@ body{
     width: 80em;
     height: 115em;
     background-color: rgb(255,165,0,0.9);;
-    margin-left: 20em;
-    margin-right: 20em;
+    margin-left: -40em;
     margin-top: 90px;
     margin-bottom: 50px;
+    position: relative;
+    left: 50%;
 }
 
 #aText{

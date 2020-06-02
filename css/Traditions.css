@@ -1,7 +1,6 @@
 #TB{
     margin-top: 5em;
-    margin-left: 20em;
-    margin-right: 20em;
+    margin-left: -40em;
     background-color: rgb(255,165,0,0.9);
     height: 80em;
     width: 80em;
@@ -10,6 +9,8 @@
     border-color: royalblue;
     background-image: url();
     background-size: cover;
+    position: relative;
+    left: 50%;
 }
 
 #text{
@@ -25,7 +26,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-}
+}   
 
 /* 
 När man drar musen över en bild kommer det upp en färglad ruta där det står information om bilden samt eventet.

@@ -5,11 +5,10 @@
 
 #Sida{
     height: 100vh;
-}
-
-#Sida1{
-    height: 118em;
-    width: 100%;
+    width: 120em;
+    margin-left: -60em;
+    position: relative;
+    left: 50%;
 }
 
 #Bottom{

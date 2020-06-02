@@ -7,6 +7,14 @@ body{
     background-attachment: fixed;
 }
 
+#Sida1{
+    height: 118em;
+    width: 120em;
+    margin-left: -60em;
+    position: relative;
+    left: 50%;
+}
+
 #text1{
     border-radius: 2px;
     border-style: solid;
@@ -66,7 +74,6 @@ body{
 
 #im2{
     position: relative;
-    
     height: 495px;
     width: 670px;
     border-radius: 2px;
@@ -79,8 +86,8 @@ body{
 
 #im3{
     position: relative;
-    
     height: 490px;
+    width: 340px;
     border-radius: 2px;
     border-style: solid;
     border-color: royalblue;
