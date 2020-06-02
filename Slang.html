@@ -14,7 +14,16 @@
         <a id="est2" href="Slang.html" class="in"><p id="SP">Slang</p></a>
         <a id="est3" href="Traditions.html" class="in"><p id="TP">Tradition</p></a>
         <a id="est4" href="about.html" class="in"><p id="AP">About</p></a>
-        <div id="triangel"></div>
+    </nav>
+    
+    <nav id="nytop">
+        <div class="Extra">
+        <a href=index.html><h1 id="tit">Kenya World View</h1></a>
+        <a id="nyest1" href="Culture.html" ><p id="CP">Culture</p></a>
+        <a id="nyest2" href="Slang.html" ><p id="SP">Slang</p></a>
+        <a id="nyest3" href="Traditions.html" ><p id="TP">Tradition</p></a>
+        <a id="nyest4" href="about.html" ><p id="AP">About</p></a>
+        </div>
     </nav>
     
     <div id="Sida">
@@ -29,8 +38,23 @@
     </div>
 
     <div id="Bottom">
-        <h1 id="TM">Calle™, Gleb™, Raymond™ 2020</h1>
+        <h1 id="TM">Trademark Calle, Gleb, Raymond</h1>
     </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script>
+    
+    $(window).on("scroll", function (){
+            if ($(this).scrollTop() > 90){
+                $("#nytop").css("display", "block");
+            }
+            else {
+                $("#nytop").css("display", "none");
+            }
+        });
+    
+    </script>
     
 </body>
 </html>
