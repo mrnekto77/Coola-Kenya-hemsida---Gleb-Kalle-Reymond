@@ -3,6 +3,29 @@
     padding: 0;
 }
 
+#Sida{
+    height: 100vh;
+}
+
+#Sida1{
+    height: 100%;
+}
+
+#Bottom{
+    border-top: solid 4px black;
+    margin-top: 20px;
+    width: 100ww;
+    background-color: gray;
+    height: 10em;
+    display: block;
+}
+
+#TM{
+    position: relative;
+    top: 3.8em;
+    opacity: 40%;
+}
+
 /* Top Header */
 
 #top{

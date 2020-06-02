@@ -12,22 +12,6 @@
     background-size: cover;
 }
 
-#Bottom{
-    border-top: solid 4px black;
-    margin-top: 20px;
-    width: 100ww;
-    background-color: gray;
-    height: 10em;
-    top: 100em;
-    display: block;
-}
-
-#TM{
-    position: relative;
-    top: 3.8em;
-    opacity: 40%;
-}
-
 #text{
     font-size: 8em;
     text-align: center;
