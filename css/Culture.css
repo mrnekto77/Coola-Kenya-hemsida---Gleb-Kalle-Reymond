@@ -5,86 +5,88 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 110em;
 }
 
 #text1{
     border-radius: 2px;
     border-style: solid;
     border-color: royalblue;
-    width: 40vw;
-    height: 55vh;
+    width: 48em;
+    height: 500px;
     background-color: rgb(255, 165, 0, 0.9);;
     z-index: -1;
     color: royalblue;
     padding: 10px;
-    position: absolute;
-    margin-left: 55%;
-    margin-top: 2%;
+    position: relative;
+    left: 66em;
+    top: 2em;
 }
 
 #text2{
-    position: absolute;
+    position: relative;
     border-radius: 2px;
     border-style: solid;
     border-color: royalblue;
-    width: 50vw;
-    height: 53vh;
+    width: 60em;
+    height: 495px;
     background-color: rgb(255, 165, 0, 0.9);;
-    margin-top: 33%;
-    margin-left: 2%;
     z-index: -1;
     color: royalblue;
     padding: 10px;
+    top: 6em;
+    left: 2em;
 }
 
 #text3{
-    position: absolute;
+    position: relative;
     border-radius: 2px;
     border-style: solid;
     border-color: royalblue;
-    width: 70vw;
-    height: 53vh;
+    width: 84em;
+    height: 29em;
     background-color: rgb(255, 165, 0, 0.9);;
-    margin-top: 63%;
-    margin-left: 2%;
     z-index: -1;
     color: royalblue;
     padding: 10px;
+    top: 8em;
+    left: 2em;
 }
 
 #im1{
-    position: absolute;
+    position: relative;
     height: 500px;
     border-radius: 2px;
     border-style: solid;
     border-color: royalblue;
     z-index: -1;
-    margin-left: 3%;
-    margin-top: 3%;
+    left: 2em;
+    top: -93em;
+    
 }
 
 #im2{
-    position: absolute;
-    margin-top: 34%;
-    margin-left: 60%;
+    position: relative;
+    
     height: 495px;
     width: 670px;
     border-radius: 2px;
     border-style: solid;
     border-color: royalblue;
     z-index: -1;
+    top: -58em;
+    left: 22em;
 }
 
 #im3{
-    position: absolute;
-    margin-top: 63%;
-    margin-left: 78%;
+    position: relative;
+    
     height: 490px;
     border-radius: 2px;
     border-style: solid;
     border-color: royalblue;
     z-index: -1;
+    top: -23em;
+    left: 0em;
 }
 
 
