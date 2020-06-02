@@ -18,7 +18,7 @@
     border-top: solid 4px black;
     margin-top: 20px;
     width: 100ww;
-    background-color: gray;
+    background-color: floralwhite;
     height: 10em;
     display: block;
 }
@@ -143,6 +143,7 @@ a > #AP{
     border-right: solid 10px orange;
     border-bottom-right-radius: 9px;
     transition: 1s;
+    z-index: 50;
 }
 
 .Extra:hover{
@@ -205,6 +206,10 @@ a:link{
 a:visited{
     text-decoration: none;
     color: blue;
+}
+
+h3{
+    color: black;
 }
 
 ::-webkit-scrollbar {max-width: 0%; width: 0%;}
