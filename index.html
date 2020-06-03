@@ -20,7 +20,6 @@
         <a id="est2" href="Slang.html"><p id="SP">Slang</p></a>
         <a id="est3" href="Traditions.html"><p id="TP">Tradition</p></a>
         <a id="est4" href="about.html"><p id="AP">About</p></a>
-        <div id="triangel"></div>
     </nav>
     
     <nav id="nytop">
@@ -33,15 +32,33 @@
         </div>
     </nav>
     
-    <div>
-        <img src="img/mp.jpg" alt="error" id="mp">
-    </div>
+    <div id="Sida1">
+        
+        
+        <div id="box">
+        <div class="slideosy">
+        <img src="img/flag.png" class="anmbild" alt="ett fel uppstog">
+        </div>
     
-    <div id="text1">
+    
+        <div class="slideosy">
+        <img src="img/maasai-tribe-83563_1920.jpg" class="anmbild" alt="ett fel uppstog">
+        </div>
+            
+        <div class="slideosy">
+        <img src="img/pink-flamingo-1484781_1920.jpg" class="anmbild" alt="ett fel uppstog">
+        </div>
+            
+        </div>
+       
+        
+        <div id="text1">
+            
+        </div>
+        
+        <img src="img/mp.jpg" id="mp">
         
     </div>
-    
-    <img src="img/flag.png" alt="error" id="fl" width="50%" height="350">
     
     <div id="Bottom">
         <h1 id="TM">Trademark Calle, Gleb, Raymond</h1>
@@ -58,6 +75,21 @@
                 $("#nytop").css("display", "none");
             }
         });
+        
+    var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("slideosy");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
     </script>
     
 </body>

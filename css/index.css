@@ -8,12 +8,14 @@
 #text1{
     border-radius: 2px;
     border-style: solid;
-    border-color: orange;
-    width: 60vw;
-    height: 53vh;
-    background-color: royalblue;
-    margin-left: 550px;
-    margin-top: -400px;
+    border-color: royalblue;
+    width: 1100px;
+    height: 700px;
+    background-color: orange;
+    margin-left: 800px;
+    margin-top: 50px;
+    
+
 }
 #fl{
     margin-left: 400px;
@@ -28,5 +30,58 @@ body{
     overflow: scroll;
     height: 100%;
 }
-
+#Sida1{
+    margin-top: 100px;
+    height: 100em;
+    width: 120em;
+    margin-left: -60em;
+    position: relative;
+    left: 47%;
+}
 ::-webkit-scrollbar {max-width: 0%; width: 0%;}
+
+
+.anmbild{
+    width: 1100px;
+    height: 700px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: royalblue;
+}
+* {box-sizing:border-box}
+
+#box{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}   
+.slide{
+  display: none;
+}
+
+#mp{
+    margin-top: -698px;
+    height: 700px;
+    position: absolute;
+}
+
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
