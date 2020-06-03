@@ -1,9 +1,11 @@
 #mp{
     margin-left: 100px;
-    margin-top: 100px;
     border-radius: 2px;
     border-style: solid;
-    border-color: orange;
+    border-color: royalblue;
+    margin-top: -698px;
+    height: 700px;
+    position: absolute;
 }
 #text1{
     border-radius: 2px;
@@ -11,7 +13,7 @@
     border-color: royalblue;
     width: 1100px;
     height: 700px;
-    background-color: orange;
+    background-color: rgb(255, 165, 0, 0.9);
     margin-left: 800px;
     margin-top: 50px;
     
@@ -60,9 +62,7 @@ body{
 }
 
 #mp{
-    margin-top: -698px;
-    height: 700px;
-    position: absolute;
+
 }
 
 

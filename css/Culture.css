@@ -8,7 +8,7 @@ body{
 }
 
 #Sida1{
-    height: 118em;
+    height: 119em;
     width: 120em;
     margin-left: -60em;
     position: relative;
@@ -62,38 +62,38 @@ body{
 
 #im1{
     position: relative;
-    height: 500px;
+    height: 530px;
     border-radius: 2px;
     border-style: solid;
     border-color: royalblue;
     z-index: -1;
     left: 2em;
-    top: -93em;
-    
+    top: -94.5em;
 }
 
 #im2{
     position: relative;
-    height: 495px;
+    height: 525px;
     width: 670px;
     border-radius: 2px;
     border-style: solid;
     border-color: royalblue;
     z-index: -1;
     top: -58em;
-    left: 22em;
+    left: 19em;
+    margin-top: 5px;
 }
 
 #im3{
     position: relative;
     height: 490px;
-    width: 340px;
     border-radius: 2px;
     border-style: solid;
     border-color: royalblue;
     z-index: -1;
-    top: -23em;
-    left: 0em;
+    top: -25.4em;
+    left: -2.5em;
+    
 }
 
 
