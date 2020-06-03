@@ -29,8 +29,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    overflow: scroll;
-    height: 100%;
 }
 #Sida1{
     margin-top: 100px;
@@ -60,13 +58,6 @@ body{
 .slide{
   display: none;
 }
-
-#mp{
-
-}
-
-
-
 
 /* Fading animation */
 .fade {

@@ -22,8 +22,16 @@
 
 #TM{
     position: relative;
-    top: 3.8em;
+    top: 1.1em;
     opacity: 40%;
+    padding-left: 1em;
+}
+
+#RR{
+    position: relative;
+    top: -1.5em;
+    opacity: 70%;
+    padding-left: 70em;
 }
 
 /* Top Header */
