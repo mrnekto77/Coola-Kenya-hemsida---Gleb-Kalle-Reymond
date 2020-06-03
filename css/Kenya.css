@@ -30,8 +30,8 @@
 #RR{
     position: relative;
     top: -1.5em;
+    padding-left: 80%;
     opacity: 70%;
-    padding-left: 70em;
 }
 
 /* Top Header */
