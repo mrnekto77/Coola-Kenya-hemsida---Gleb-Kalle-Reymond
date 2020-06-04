@@ -1,8 +1,9 @@
 #TB{
     margin-top: 5em;
     margin-left: -40em;
+    margin-bottom: 4em;
     background-color: rgb(255,165,0,0.9);
-    height: 80em;
+    height: 85em;
     width: 80em;
     border-radius: 9px;
     border: solid 6px;
@@ -16,9 +17,16 @@
 #text{
     font-size: 8em;
     text-align: center;
-    padding-bottom: 0.5em;
+    padding-bottom: 0.3em;
     padding-top: 0.2em;
-    opacity: 100%;
+    opacity: 80%;
+}
+
+#text2{
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 50px;
+    opacity: 80%;
 }
 
 body{
