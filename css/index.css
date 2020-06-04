@@ -7,6 +7,15 @@
     height: 700px;
     position: absolute;
 }
+
+#top{
+    height: 5.6em;
+}
+
+.Extra{
+    height: 7.5em;
+}
+
 #text1{
     border-radius: 2px;
     border-style: solid;
