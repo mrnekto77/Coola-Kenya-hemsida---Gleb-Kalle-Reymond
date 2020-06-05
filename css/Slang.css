@@ -8,7 +8,7 @@ body{
 #slang1{
     position: absolute;
     width: 450px;
-    margin-left: 700px;
+    margin-left: 715px;
     margin-top: 35px;
 }
 
@@ -26,12 +26,13 @@ body{
     border-radius: 2px;
     border-style: solid;
     border-color: orange;
-    width: 700px;
-    height: 450px;
+    width: 550px;
+    height: 300px;
     background-color: deepskyblue;
-    margin-left: 60px;
+    margin-left: 180px;
     margin-top: 400px;
     opacity: 80%;
+    text-align: center;
 }
 
 #tx2{
@@ -42,7 +43,7 @@ body{
     width: 700px;
     height: 260px;
     background-color: royalblue;
-    margin-left: 600px;
+    margin-left: 610px;
     margin-top: 50px;
 }
 
@@ -51,12 +52,13 @@ body{
     border-radius: 2px;
     border-style: solid;
     border-color: orange;
-    width: 700px;
-    height: 450px;
+    width: 550px;
+    height: 300px;
     background-color: deepskyblue;
-    margin-left: 1160px;
+    margin-left: 1200px;
     margin-top: 400px;
     opacity: 80%;
+    text-align: center;
 }
 
 #oldlist, #newlist{
